@@ -1,5 +1,11 @@
+import Promo from '../../components/Promo/Promo'
+
 const MainPage: React.FC = () => {
-    return <></>
+    return (
+        <>
+            <Promo />
+        </>
+    )
 }
 
 export default MainPage

@@ -1,10 +1,6 @@
-import { useGetNewsQuery } from '../../store/api/apiNews/apiNews'
 import styles from './Header.module.css'
 
 const Header: React.FC = () => {
-    const { data } = useGetNewsQuery('')
-    console.log(data)
-
     type Date = {
         dayWeek: string
         month: string
