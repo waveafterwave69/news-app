@@ -1,10 +1,12 @@
 :root {
-    --container-width: 1920px;
-    --container-padding-x: 24px;
+    --container-width: 1720px;
+    --container-padding-x: 16px;
 
-    --font-family: 'Inter', sans-serif;
+    --font-family: "Montserrat", sans-serif;
 
     --color-white: #ffffff;
-
+    --color-light-grey: #e0e0e0;
+    --color-dark-grey: #575757;
+    --color-black: #090a0a;
     --transition-duration: 0.2s;
 }
