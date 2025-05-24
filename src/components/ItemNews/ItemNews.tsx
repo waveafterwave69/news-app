@@ -5,7 +5,7 @@ import type { Props } from '../../types/types'
 const ItemNews: React.FC<Props> = (props) => {
     return (
         <>
-            <li key={props.id}>
+            <li>
                 <a href={props.url} className={styles.item} target="_blank">
                     <img
                         src={props.image}
