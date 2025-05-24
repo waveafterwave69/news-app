@@ -4,3 +4,9 @@
     row-gap: 25px;
     margin-top: 70px;
 }
+
+@media (max-width: 425px) {
+    .news__list {
+        margin-top: 30px;
+    }
+}

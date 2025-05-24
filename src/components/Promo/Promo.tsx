@@ -2,13 +2,12 @@ import { useGetNewsQuery } from '../../store/api/apiNews/apiNews'
 import styles from './Promo.module.css'
 
 const Promo: React.FC = () => {
-    const { data } = useGetNewsQuery('')
-    console.log(data)
+    const { data, isLoading } = useGetNewsQuery('')
 
     return (
         <>
             <section className={styles.promo}>
-                {data && (
+                {!isLoading && (
                     <div className={styles.promo__content}>
                         <a
                             href={data.news[0].url}
