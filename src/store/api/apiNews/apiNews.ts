@@ -9,8 +9,7 @@ export const apiSlice = createApi({
     tagTypes: ['News'],
     endpoints: (builder) => ({
         getNews: builder.query({
-            query: (pageSize = 10) =>
-                `search?apiKey=${NEWS_API_KEY}&page_size=${pageSize}`,
+            query: () => `search?apiKey=${NEWS_API_KEY}`,
         }),
     }),
 })

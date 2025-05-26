@@ -4,8 +4,7 @@ import styles from './ListNews.module.css'
 import type { Props } from '../../types/types'
 
 const ListNews: React.FC = () => {
-    let pageSize = 8
-    const { data, isLoading } = useGetNewsQuery(pageSize)
+    const { data, isLoading } = useGetNewsQuery('')
 
     return (
         <>
